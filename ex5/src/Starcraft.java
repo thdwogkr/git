@@ -1,6 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
+//굳!
 public class Starcraft {
     public static void main(String[] args) {
 
