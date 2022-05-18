@@ -3,7 +3,7 @@ public class Test {
         String[] arr = {"aaa", "bbbbb", "cc"};
         String result = "";
 
-        arr[0].equalsIgnoreCase();
+//        arr[0].equalsIgnoreCase();
 
 
 
