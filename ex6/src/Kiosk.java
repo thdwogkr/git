@@ -15,7 +15,7 @@ public class Kiosk{
         System.out.println("-".repeat(40));
     }
 
-    static int count() {
+    static void count() {
         System.out.println("[안내]원하시는 메뉴의 번호를 입력하여 주세요.");
         System.out.println("1) 김밥(1000원) 2) 계란 김밥(1500원) 3) 충무 김밥(1000원) 4) 떢볶이(2000원)");
         number = sc.nextInt();
@@ -25,8 +25,8 @@ public class Kiosk{
 
             count();
         }
-        //System.out.println(number);
-        return number;
+
+
     }
 
     static void cost(int number) {
@@ -58,10 +58,10 @@ public class Kiosk{
 
     public static void main(String[] args) {
         input_print();
-        int a = count();
-        cost(a);
+        count();
+        cost(number);
 
     }
 
 
-}
+}10
