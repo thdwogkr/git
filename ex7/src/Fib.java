@@ -1,7 +1,7 @@
 import org.w3c.dom.ls.LSOutput;
 
 import java.util.Scanner;
-
+// good~~
 public class Fib {
     public static void main(String[] args) {
         System.out.println("[안내]피보나치 수열 프로그램 시작.");
